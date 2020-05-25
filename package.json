@@ -1,0 +1,22 @@
+{
+  "name": "webpack-cli-v4-beta8-ignore-loader-error",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npm run build",
+    "build": "webpack",
+    "pretest": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstssk/webpack-cli-v4-beta8-ignore-loader-error.git"
+  },
+  "author": "mstssk",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^4.0.0-beta.8"
+  }
+}
